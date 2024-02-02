@@ -37,8 +37,6 @@ const Forms = () => {
             toast.error("Please fix the errors in the form");
         }
     };
-
-
     const validate = (data) => {
         let error = {};
         if (data.firstName.trim() === "") {
@@ -55,7 +53,6 @@ const Forms = () => {
         }
         return error;
     };
-
     return (
         <>
             <div className="parent">
@@ -88,5 +85,4 @@ const Forms = () => {
     </>
     );
 };
-
 export default Forms; 
